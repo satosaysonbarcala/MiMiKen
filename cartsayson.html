@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Bookstore - Cart</title>
+    <link rel="stylesheet" href="stylesayson.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Awesome Bookstore</h1>
+            <nav>
+                <ul>
+                    <li><a href="indexsayson.html">Home</a></li>
+                    <li><a href="bookssayson.html">Books</a></li>
+                    <li><a href="cartsayson.html">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="shopping-cart">
+            <div class="container">
+                <h2>Your Shopping Cart</h2>
+                <div id="cart-items">
+                    <p>Your cart is currently empty.</p>
+                </div>
+                <div class="cart-summary">
+                    <h3>Total: <span id="cart-total">$0.00</span></h3>
+                    <button id="buy-now-btn" class="btn" disabled>Buy Now</button>
+                </div>
+                <div id="order-confirmation" class="hidden">
+                    <h3>Order Confirmed!</h3>
+                    <p>Thank you for your purchase. Here's a summary of your order:</p>
+                    <ul id="ordered-books-list"></ul>
+                    <p><strong>Total Paid: <span id="ordered-total"></span></strong></p>
+                    <p>Your order will be processed shortly.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Awesome Bookstore. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scriptsayson.js"></script>
+</body>
+</html>
